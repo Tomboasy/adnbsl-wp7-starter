@@ -1,0 +1,47 @@
+/**
+ * Utilitaires réellement nécessaires.
+ * Préfixe .u-* — ne pas transformer ce fichier en framework CSS.
+ */
+
+.u-visually-hidden {
+	position: absolute !important;
+	inline-size: 1px;
+	block-size: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.u-reading {
+	max-inline-size: var(--wp--custom--layout--reading, 40rem);
+}
+
+.u-full {
+	inline-size: 100%;
+}
+
+.u-stack {
+	display: flex;
+	flex-direction: column;
+	gap: var(--wp--preset--spacing--md, 1.5rem);
+}
+
+.u-cluster {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--wp--preset--spacing--sm, 1rem);
+	align-items: center;
+}
+
+.u-media {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+.u-media-square {
+	aspect-ratio: 1;
+	object-fit: cover;
+}

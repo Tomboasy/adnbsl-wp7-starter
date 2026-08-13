@@ -1,0 +1,82 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+	"version": 3,
+	"title": "High contrast",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#000000"
+				},
+				{
+					"slug": "secondary",
+					"name": "Secondary",
+					"color": "#000000"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#0000ee"
+				},
+				{
+					"slug": "foreground",
+					"name": "Foreground",
+					"color": "#000000"
+				},
+				{
+					"slug": "background",
+					"name": "Background",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "muted",
+					"name": "Muted",
+					"color": "#000000"
+				},
+				{
+					"slug": "border",
+					"name": "Border",
+					"color": "#000000"
+				},
+				{
+					"slug": "success",
+					"name": "Success",
+					"color": "#006400"
+				},
+				{
+					"slug": "warning",
+					"name": "Warning",
+					"color": "#7a5800"
+				},
+				{
+					"slug": "error",
+					"name": "Error",
+					"color": "#8b0000"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				"typography": {
+					"textDecoration": "underline"
+				}
+			},
+			"button": {
+				"border": {
+					"width": "2px",
+					"style": "solid",
+					"color": "var:preset|color|foreground"
+				}
+			}
+		}
+	}
+}

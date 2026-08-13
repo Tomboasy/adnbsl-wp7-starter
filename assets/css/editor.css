@@ -1,0 +1,20 @@
+/**
+ * Ajustements du canvas Gutenberg pour coller au frontend.
+ * Chargé uniquement dans l’éditeur (add_editor_style).
+ */
+
+.editor-styles-wrapper {
+	font-family: var(--wp--preset--font-family--system-sans);
+	color: var(--wp--preset--color--foreground);
+	background: var(--wp--preset--color--background);
+}
+
+.editor-styles-wrapper .wp-block-post-content,
+.editor-styles-wrapper .is-root-container {
+	max-inline-size: var(--wp--style--global--content-size, 42rem);
+}
+
+.block-editor-block-list__block[data-animate] {
+	opacity: 1;
+	transform: none;
+}

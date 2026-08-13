@@ -1,0 +1,55 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.0/block.json",
+	"apiVersion": 3,
+	"name": "adnbsl/stats",
+	"title": "Statistique",
+	"category": "adnbsl",
+	"icon": "chart-bar",
+	"description": "Indicateur numérique simple, compteur optionnel à l’apparition.",
+	"keywords": ["number", "counter", "stat"],
+	"textdomain": "adnbsl-wp7-starter",
+	"attributes": {
+		"value": {
+			"type": "number",
+			"default": 100
+		},
+		"prefix": {
+			"type": "string",
+			"default": ""
+		},
+		"suffix": {
+			"type": "string",
+			"default": ""
+		},
+		"label": {
+			"type": "string",
+			"default": ""
+		},
+		"animate": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"align": ["wide"],
+		"anchor": true,
+		"html": false,
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"fontWeight": true
+		},
+		"interactivity": true
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}

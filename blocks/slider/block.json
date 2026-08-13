@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.0/block.json",
+	"apiVersion": 3,
+	"name": "adnbsl/slider",
+	"title": "Slider",
+	"category": "adnbsl",
+	"icon": "images-alt2",
+	"description": "Carousel léger en scroll-snap. InnerBlocks = diapositives.",
+	"keywords": ["carousel", "gallery", "slides"],
+	"textdomain": "adnbsl-wp7-starter",
+	"supports": {
+		"align": ["wide", "full"],
+		"anchor": true,
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"interactivity": true
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}

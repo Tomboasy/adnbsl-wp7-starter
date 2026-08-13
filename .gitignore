@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+vendor/
+npm-debug.log*
+yarn-error.log*
+composer.lock
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+wp-cli.local.yml
+
+# Caches, logs, temp
+*.log
+*.cache
+.sass-cache/
+.cache/
+tmp/
+temp/
+*.sql
+*.sql.gz
+*.sqlite
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build maps
+*.map
+*.min.css.map
+*.min.js.map
+
+# WordPress local (si le dépôt englobe plus que le thème)
+# Ne pas versionner ces chemins depuis un clone WP complet :
+# /wp-config.php
+# /wp-content/uploads/
+# /wp-content/upgrade/
+# /wp-content/cache/
+# /wp-content/backup*/
+# /wp-content/debug.log
+
+# Assets générés localement
+screenshot.png.orig

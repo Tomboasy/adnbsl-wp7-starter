@@ -1,0 +1,11 @@
+.c-modal-editor {
+	border: 1px dashed var(--wp--preset--color--border, #e4e4e7);
+	padding: var(--wp--preset--spacing--md, 1.5rem);
+	border-radius: var(--wp--preset--border-radius--sm, 0.25rem);
+}
+
+.c-modal-editor__label {
+	font-size: var(--wp--preset--font-size--sm, 0.875rem);
+	color: var(--wp--preset--color--muted, #5c5c5c);
+	margin: 0 0 0.75rem;
+}

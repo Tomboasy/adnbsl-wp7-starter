@@ -1,0 +1,16 @@
+.c-stat {
+	text-align: center;
+}
+
+.c-stat__value {
+	font-size: var(--wp--preset--font-size--3-xl, 2.75rem);
+	font-weight: 600;
+	line-height: 1.1;
+	margin: 0;
+}
+
+.c-stat__label {
+	margin: 0.35rem 0 0;
+	color: var(--wp--preset--color--muted, #5c5c5c);
+	font-size: var(--wp--preset--font-size--sm, 0.875rem);
+}

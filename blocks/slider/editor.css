@@ -1,0 +1,5 @@
+.c-slider-editor {
+	border: 1px dashed var(--wp--preset--color--border, #e4e4e7);
+	padding: var(--wp--preset--spacing--sm, 1rem);
+	border-radius: var(--wp--preset--border-radius--sm, 0.25rem);
+}

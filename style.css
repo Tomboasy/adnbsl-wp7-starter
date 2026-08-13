@@ -1,0 +1,20 @@
+/*
+Theme Name: ADNB SL WP7 Starter
+Theme URI: https://adnbsl.com
+Author: ADNB SL
+Author URI: https://adnbsl.com
+Description: Starter WordPress 7 natif (block theme) pour sites sur mesure. Gutenberg, Site Editor, theme.json. Aucun CPT, aucune taxonomie personnalisée. Identité visuelle volontairement neutre.
+Requires at least: 7.0
+Tested up to: 7.0
+Requires PHP: 8.1
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: adnbsl-wp7-starter
+Tags: full-site-editing, block-themes, block-patterns, translation-ready, one-column, two-columns, wide-blocks, custom-colors, custom-menu, featured-images, sticky-post, threaded-comments
+*/
+
+/*
+ * Les styles globaux viennent de theme.json et de assets/css/.
+ * Ce fichier reste volontairement minimal (en-tête de thème WordPress).
+ */
