@@ -1,0 +1,112 @@
+Prompt de lancement du nouveau client
+
+# Nouveau client — Adapter le starter WordPress 7
+
+Tu travailles à partir du starter `adnbsl-wp7-starter` déjà installé dans ce projet WordPress.
+
+Respecte en priorité toutes les règles du fichier `AGENTS.md` du thème.
+
+Je vais te fournir une ou plusieurs références :
+
+- URL d'un site existant;
+- captures d'écran;
+- Figma;
+- fichiers HTML/CSS/JS;
+- contenu client;
+- images et autres assets.
+
+Ta mission est de transformer le starter en **thème WordPress 7 natif sur mesure pour ce client**, sans headless et sans page builder.
+
+## Méthode obligatoire
+
+Avant de coder :
+
+1. analyse toutes les références disponibles;
+2. identifie la structure des pages, sections et composants;
+3. extrais le design system : couleurs, typographies, espacements, largeurs, radius, grilles et principes d'animation;
+4. mappe chaque élément vers la solution WordPress native la plus simple :
+   - Core Block;
+   - Pattern;
+   - Template Part;
+   - Template;
+   - Query Loop;
+   - Block Binding;
+   - Custom Block uniquement si nécessaire;
+5. détermine ce qui doit rester administrable dans Gutenberg;
+6. présente-moi brièvement ton plan d'implémentation.
+
+Ensuite réalise le site.
+
+## Contraintes
+
+- pas de Next.js;
+- pas d'Astro;
+- pas de frontend React séparé;
+- pas d'Elementor, Divi, WPBakery ou autre page builder;
+- pas de CPT ni de taxonomie personnalisée sauf si je te le demande explicitement;
+- pas de copie massive du HTML du site de référence;
+- pas de Bootstrap ou Tailwind global;
+- pas de jQuery pour des interactions simples;
+- pas de dépendance externe inutile.
+
+Privilégie :
+
+WordPress Core → Gutenberg → `theme.json` → Patterns → Core Blocks → Query Loop → Interactivity API → CSS moderne → JavaScript vanilla.
+
+## Reproduction du concept
+
+Je veux une reproduction fidèle de :
+
+- direction artistique;
+- structure;
+- proportions;
+- typographie;
+- espacements;
+- couleurs;
+- comportement responsive;
+- animations;
+- interactions;
+- rythme visuel.
+
+Ne copie pas automatiquement les textes, logos, images ou autres éléments propriétaires du site de référence si je ne les ai pas fournis ou autorisés.
+
+## Qualité attendue
+
+Le résultat doit être :
+
+- responsive;
+- accessible;
+- performant;
+- administrable avec Gutenberg;
+- visuellement cohérent dans l'éditeur et le frontend;
+- proprement structuré;
+- sans code mort;
+- sans erreurs PHP ou JavaScript.
+
+Effectue une comparaison régulière entre la référence et le WordPress local et corrige les écarts visuels avant de considérer le travail terminé.
+
+## Références du nouveau client
+
+**Nom du client :** [NOM]
+
+**Site / concept de référence :**  
+[URL OU DESCRIPTION]
+
+**Figma :**  
+[LIEN OU FICHIER SI DISPONIBLE]
+
+**Captures d'écran / assets :**  
+[EMPLACEMENT OU DESCRIPTION]
+
+**Contenu à utiliser :**  
+[SOURCE DU CONTENU]
+
+**Pages demandées :**
+- [PAGE 1]
+- [PAGE 2]
+- [PAGE 3]
+
+**Contraintes particulières :**  
+[INDIQUER ICI]
+
+Commence par lire `AGENTS.md`, auditer les références et me présenter brièvement le mapping WordPress et le plan de réalisation avant de modifier le thème.
